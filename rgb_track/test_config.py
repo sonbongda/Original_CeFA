@@ -12,7 +12,7 @@ def get_config(protocol_name):
         'ngpu': 1,
         'dataset_configs': {
             'dataset_name': 'VideoDataset',
-            'datalist_path': '../data/dev_test_list.txt',
+            'datalist_path': '../data/dev_test_list_v1.txt',
             'data_columns': [('rgb_path', 'data')],
             'target_columns': ('label', 'target'),
             'transform_source': 'model_config',
